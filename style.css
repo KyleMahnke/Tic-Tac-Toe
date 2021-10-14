@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 75vw;
+    height: 75vh;
+    background-color: navajowhite;
+}
+
+.cell {
+    border: black solid 1px;
+}
+
+
