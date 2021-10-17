@@ -1,5 +1,9 @@
 * {
     box-sizing: border-box;
+    background-color: #2E5559;
+    color: #D98E04;
+    text-align: center;
+    font-family: 'Rampart One', cursive;
 }
 
 #board {
@@ -8,11 +12,21 @@
     grid-template-rows: 1fr 1fr 1fr;
     width: 75vw;
     height: 75vh;
-    background-color: navajowhite;
+    background-color: #2E5559;
+    padding-left: 25%;
 }
 
 .cell {
-    border: black solid 1px;
+    display: grid;
+    
+    border: #2E5559 solid 4px;
+    color: #A61103;
+    background-color: #D98E04;
+    font-size: 150px;
+    text-align: center;
 }
 
-
+input {
+    color: #A61103;
+    background-color: #D98E04;
+}

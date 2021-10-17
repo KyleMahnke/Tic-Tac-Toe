@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script defer src="app.js"></script>
+    <!-- <script defer src="app.js"></script> -->
+    <script defer src="app-two.js"></script>
     <link rel="stylesheet" href="style.css">
+    <!-- font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet"> 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +15,9 @@
 </head>
 <body>
     <h1 id="Title">Tic Tac Toe</h1>
+    <div id="new-game"></div>
     <h1 id="player-turn"></h1>
+    
     <main id = "board">
         <div class="cell" id="[0,0]"></div>
         <div class="cell" id="[0,1]"></div>
@@ -22,7 +29,5 @@
         <div class="cell" id="[2,1]"></div>
         <div class="cell" id="[2,2]"></div>
     </main>
-    <!-- <div id="xMove">X</div> -->
-    <!-- <div id="oMove">O</div> -->
 </body>
 </html>
